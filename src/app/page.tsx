@@ -3,10 +3,8 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <>
-      <h1 className="md:text-2xl md:text-red-600 lg:text-4xl lg:text-yellow-600">My shop
-        <Button className="text-white">Click me</Button>
+      <h1 className="md:text-2xl md:text-red-600 lg:text-4xl lg:text-yellow-600">Landing Page
       </h1>
-      <p className="text-5xl">Is it working</p>
     </>
   );
 }
