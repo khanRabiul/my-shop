@@ -12,7 +12,7 @@ const TopNavSocialLink = () => {
     <section className="bg-[#1B6392] py-1.5">
       <div className="container">
         <div
-          className="flex items-center justify-between">
+          className="md:flex md:flex-col lg:flex-row lg:items-center lg:justify-between ">
           <div>
             <p className="text-white text-sm">Welcome to My Shop Multivendor Ecommerce website</p>
           </div>

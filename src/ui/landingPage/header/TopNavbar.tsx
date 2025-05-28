@@ -24,7 +24,7 @@ const TopNavbar = () => {
           <div>
             <Link href='/shop' className="group">
               <Button
-                className="bg-[#EBC80C] uppercase text-black rounded-sm px-2.5 py-1.5 hover:bg-[#EBC80C]/90 transition-colors duration-300"
+                className="bg-[#EBC80C] uppercase text-black rounded-sm px-2.5 py-1.5 hover:bg-[#EBC80C]/90 transition-colors duration-300 cursor-pointer"
               >
                 Shop now
                 <span className="text-black transition-transform duration-300 group-hover:translate-x-1 ml-2">
