@@ -3,6 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import TopNavbar from "@/ui/landingPage/header/TopNavbar";
 import TopNavSocialLink from "@/ui/landingPage/header/TopNavSocialLink";
+import TopUsersActions from "@/ui/landingPage/header/TopUsersAction";
+import { Separator } from "@/components/ui/separator"
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +34,8 @@ export default function RootLayout({
       >
         <TopNavbar />
         <TopNavSocialLink />
+        <Separator  className="bg-gray-300"/>
+        <TopUsersActions />
         <main>
           {children}
         </main>
