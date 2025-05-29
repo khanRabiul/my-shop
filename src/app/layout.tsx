@@ -5,6 +5,7 @@ import TopNavbar from "@/ui/landingPage/header/TopNavbar";
 import TopNavSocialLink from "@/ui/landingPage/header/TopNavSocialLink";
 import TopUsersActions from "@/ui/landingPage/header/TopUsersAction";
 import { Separator } from "@/components/ui/separator"
+import TopMenu from "@/ui/landingPage/header/TopMenu";
 
 
 const geistSans = Geist({
@@ -36,6 +37,7 @@ export default function RootLayout({
         <TopNavSocialLink />
         <Separator  className="bg-gray-300"/>
         <TopUsersActions />
+        <TopMenu />
         <main>
           {children}
         </main>
