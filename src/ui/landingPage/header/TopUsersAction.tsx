@@ -1,10 +1,23 @@
-// src/components/TopUsersActions.tsx
+'use client'
+
 import { BsShop } from "react-icons/bs";
 import { Input } from "@/components/ui/input"
-import { Heart, Search, ShoppingCart, UserRound } from 'lucide-react';
+import { Heart, Moon, Search, ShoppingCart, Sun, UserRound } from 'lucide-react';
 import Link from "next/link";
+import { useTheme } from "next-themes";
+import { Button } from "@/components/ui/button";
+
 
 const TopUsersActions = () => {
+
+  const { setTheme, theme } = useTheme();
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light')
+    }
+  }
   return (
     <section className="bg-[#1B6392] py-4 md:py-5 lg:py-6">
       <div className="container">
@@ -57,6 +70,16 @@ const TopUsersActions = () => {
             >
               <UserRound className="w-full h-full" />
             </Link>
+            <Button
+            variant='ghost'
+            size='icon'
+            onClick={toggleTheme}
+            className="text-white hover:bg-white/20"
+            >
+              <Sun className="h-6 w-6 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"/>
+              <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"/>
+              <span className="sr-only"></span>
+            </Button>
           </div>
         </div>
       </div>
