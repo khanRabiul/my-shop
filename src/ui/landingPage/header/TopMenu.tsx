@@ -2,9 +2,11 @@ import AllCategory from "@/ui/landingPage/header/AllCategory";
 
 const TopMenu = () => {
   return (
-    <section>
-      <AllCategory />
-    </section>
+    <nav>
+      <div className="container flex items-center space-x-4">
+        <AllCategory />
+      </div>
+    </nav>
   );
 };
 
