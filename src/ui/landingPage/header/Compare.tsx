@@ -5,10 +5,10 @@ const Compare = () => {
   return (
     <Link
     className="flex items-center gap-0.5 text-sm font-medium text-font-gray" 
-    href='/profile/track-order'
+    href='/profile/compare'
     >
       <RefreshCw className="size-5" />
-      <span className="ml-2">Track Order</span>
+      <span className="ml-2">Compare Products</span>
     </Link>
   );
 };
