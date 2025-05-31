@@ -57,6 +57,7 @@
   /* --breakpoint-3xl: '1920px'; */
 }
 
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

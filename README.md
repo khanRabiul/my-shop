@@ -2,6 +2,32 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+colors:
+buttons: #EBC80C
+         #FA8232
+         #EFD33D
+         #EE5858
+         #929FA5
+         #FFE7D6
+         #2DA5F3
+         #2DB224
+
+background:
+body or section : #ffffff
+                  #FFE7D6
+                  #1B6392
+ #191C1F
+ card: #124261
+       #F7E99E
+       #F2F4F5
+
+fonts colors:
+#ffffff
+#191C1F
+#77878F
+#FA8232
+#2DA5F3
+
 First, run the development server:
 
 ```bash

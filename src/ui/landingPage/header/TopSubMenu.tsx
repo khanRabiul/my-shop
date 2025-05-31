@@ -42,13 +42,13 @@ const SubMenuItem = React.forwardRef<React.ElementRef<typeof Link>, SubMenuItemP
 
       {/* সাব-মেনু কন্টেন্ট */}
       {subcategories && subcategories.length > 0 && isSubMenuOpen && (
-        <ul className="absolute left-full top-0 ml-5 min-w-[200px] bg-white shadow-lg rounded-md p-2 z-10 border border-gray-200">
+        <ul className="absolute left-full top-0 ml-5 min-w-[200px] bg-background text-foreground shadow-lg rounded-md p-2 z-10 border border-gray-200">
           {subcategories.map((subItem) => (
             <li key={subItem.href}>
               <NavigationMenuLink asChild>
                 <Link
                   href={subItem.href}
-                  className="flex w-full items-center px-4 py-2 text-sm font-medium rounded-md transition-colors hover:bg-accent hover:text-accent-foreground text-nowrap"
+                  className="flex w-full items-center px-4 py-2 text-sm font-medium rounded-md transition-colors bg-background text-foreground hover:bg-accent hover:text-accent-foreground text-nowrap"
                 >
                   <span>{subItem.title}</span>
                 </Link>
