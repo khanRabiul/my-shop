@@ -8,7 +8,7 @@ import ContactNubmer from "@/ui/landingPage/header/ContactNumber";
 
 const TopMenu = () => {
   return (
-    <nav className="bg-background text-foreground py-2">
+    <nav className="bg-background text-foreground py-2 hidden md:block">
       <div className="container flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <AllCategory />
@@ -19,7 +19,6 @@ const TopMenu = () => {
         </div>
         <div>
           <ContactNubmer />
-
         </div>
       </div>
     </nav>
