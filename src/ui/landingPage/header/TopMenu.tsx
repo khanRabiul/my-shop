@@ -1,5 +1,6 @@
 import AllCategory from "@/ui/landingPage/header/AllCategory";
 import TrackOrder from "@/ui/landingPage/header/TrackOrder";
+import Compare from "@/ui/landingPage/header/Compare";
 
 const TopMenu = () => {
   return (
@@ -7,6 +8,7 @@ const TopMenu = () => {
       <div className="container flex items-center space-x-4">
         <AllCategory />
         <TrackOrder />
+        <Compare />
       </div>
     </nav>
   );
