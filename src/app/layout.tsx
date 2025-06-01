@@ -43,7 +43,7 @@ export default function RootLayout({
 
           <TopNavbar />
           <TopNavSocialLink />
-          <Separator className="bg-gray-300" />
+          <Separator className="bg-gray-300 hidden md:block" />
           <TopUsersActions />
           <TopMenu />
           <main>
