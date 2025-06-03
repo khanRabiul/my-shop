@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
+import TopOffer from "@/ui/landing-page/header/TopOffer";
 
 export default function Home() {
   return (<>
-    <Button >Shadcn button</Button>
+    <TopOffer />
   </>);
 }
