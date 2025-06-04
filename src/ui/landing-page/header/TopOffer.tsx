@@ -25,7 +25,7 @@ const TopOffer = () => {
           </div>
 
           <div>
-            <Link href='/shop' className="group">
+            <Link href='/store' className="group">
               <Button
                 className="bg-[#ebc80c] uppercase text-black rounded-sm px-2 md:px-3 py-1 md:py-1.5 hover:bg-[#ebc80c]/90 transition-colors duration-300 cursor-pointer text-sm md:text-base"
               >
