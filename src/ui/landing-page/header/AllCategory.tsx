@@ -1,7 +1,8 @@
+
 const AllCategory = () => {
-  return (
-    <div>AllCategory</div>
-  );
+  return (<>
+  <h1>All category</h1>
+  </>);
 };
 
 export default AllCategory;
