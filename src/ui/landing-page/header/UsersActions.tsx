@@ -17,8 +17,8 @@ const UsersActions = () => {
         <Link href='/profile'>
           <UserRound />
         </Link>
-      </div>
       <Theme />
+      </div>
     </>
   );
 };

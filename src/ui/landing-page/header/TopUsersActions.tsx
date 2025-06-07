@@ -4,11 +4,11 @@ import MyShopLogos from "@/ui/landing-page/header/MyShopLogos";
 import Searchbar from "@/ui/landing-page/header/Searchbar";
 import UsersActions from "@/ui/landing-page/header/UsersActions";
 import MobileMenu from "@/ui/landing-page/header/MobileMenu"; 
-import { cn } from "@/lib/utils"; 
+
 
 const TopUsersActions = () => {
   return (
-    <section className="bg-primary py-2 md:py-3 lg:py-4">
+    <section className="bg-[#1b6392] py-2 md:py-3 lg:py-4">
       <div className="container">
         
         <div className="flex flex-wrap lg:flex-nowrap gap-4 items-center justify-between">
