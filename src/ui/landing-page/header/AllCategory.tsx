@@ -13,6 +13,7 @@ import { categories } from "@/data/data";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 
 
@@ -65,7 +66,8 @@ const AllCategory = ({ inHamburgerMenu = false, className }: AllCategoryProps) =
   }
 
   return (
-    <div className="hidden lg:block">
+    <Button variant={'ghost'}>
+      <div className="hidden lg:block">
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
@@ -88,6 +90,8 @@ const AllCategory = ({ inHamburgerMenu = false, className }: AllCategoryProps) =
         </NavigationMenuList>
       </NavigationMenu>
     </div>
+    </Button>
+    
   );
 };
 
